@@ -13,7 +13,6 @@ import del from 'del';
 import path from 'path';
 import child from 'child_process';
 import sourcemaps from 'gulp-sourcemaps';
-require("@babel/register");
 
 const exec = child.exec;
 const argv = yargs.argv;
